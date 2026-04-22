@@ -61,11 +61,6 @@ src/log/
 Cargo.lock
 
 # Ignore all ROS2 packages EXCEPT stretch_ros2
-src/audio_common/
-src/ros2_numpy/
-src/rosbridge_suite/
-src/sllidar_ros2/
 src/stretch_tutorials/
-src/stretch_web_teleop/
 src/ROS-TCP-Endpoint/
 src/ROS-TCP-Endpoint/
