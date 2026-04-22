@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "NewXRInputActions",
+    "maps": [
+        {
+            "name": "XR RightHand",
+            "id": "0fc2d80f-4415-40a9-8e2b-9655bc8d3bc6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "981b8b6d-bf0f-488f-973b-8aebeb92730d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Primary Button",
+                    "type": "Button",
+                    "id": "5592eb39-aae8-48c5-a2a1-790811ce1b20",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Thumbstick",
+                    "type": "Value",
+                    "id": "c6f9c8cd-1de3-44ca-8ff7-fd08f4600786",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee2aaa5f-d96f-438f-b290-f7b5af2e6f23",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44e010b2-28aa-4b81-8890-7bc549ea8a9a",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Primary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e772c4c-6594-47f7-8595-894fb62d83bf",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

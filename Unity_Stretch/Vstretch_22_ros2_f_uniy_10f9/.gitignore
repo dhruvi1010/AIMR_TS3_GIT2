@@ -1,0 +1,40 @@
+# Unity generated
+[Ll]ibrary/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+obj/
+
+# Build results
+[Bb]uilds/
+[Bb]uild/
+
+# Visual Studio Code cache
+.vscode/
+
+# Generated files
+*.csproj
+*.sln
+*.sln.DotSettings
+*.userprefs
+*.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Local files
+*.local
+
+# Text files
+*.txt
+
+# Temporary files
+*.tmp
+*.log
+*.cache
