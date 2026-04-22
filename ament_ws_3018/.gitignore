@@ -1,0 +1,71 @@
+# ROS2 Build Artifacts
+build/
+install/
+log/
+colcon-core.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled Objects
+*.o
+*.so
+*.a
+*.lib
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+.Python
+venv/
+env/
+ENV/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Backups & Temporary Files
+*.bak
+*.backup
+*.tmp
+*.orig
+*.rej
+
+# Text Files (as requested)
+*.txt
+
+# Bash Scripts
+*.bash
+
+# ROS Build System
+src/build/
+src/install/
+src/log/
+
+# Dependency Files
+Cargo.lock
+
+# Ignore all ROS2 packages EXCEPT stretch_ros2
+src/audio_common/
+src/realsense-ros/
+src/respeaker_ros2/
+src/ros2_numpy/
+src/rosbridge_suite/
+src/sllidar_ros2/
+src/stretch_tutorials/
+src/stretch_web_teleop/
