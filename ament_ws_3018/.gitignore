@@ -62,8 +62,6 @@ Cargo.lock
 
 # Ignore all ROS2 packages EXCEPT stretch_ros2
 src/audio_common/
-src/realsense-ros/
-src/respeaker_ros2/
 src/ros2_numpy/
 src/rosbridge_suite/
 src/sllidar_ros2/
