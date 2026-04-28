@@ -1,6 +1,6 @@
 - 
     
-    # VR Teleoperation of Hello Robot Stretch 3 using ROS2ForUnity
+    #  VR Teleoperation of Hello Robot Stretch 3 using ROS2ForUnity
     
     A Unity-based VR teleoperation system for controlling the **Hello Robot Stretch 3** mobile manipulator through a **Meta Quest 3** headset. The system uses **ROS2ForUnity** (Humble) for direct, low-latency DDS communication between Unity and the robot — no intermediate bridge servers or websockets required.
     
