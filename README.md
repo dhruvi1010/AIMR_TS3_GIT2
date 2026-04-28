@@ -1,4 +1,4 @@
-
+-
     
     # VR Teleoperation of Hello Robot Stretch 3 using ROS2ForUnity
     
@@ -10,7 +10,7 @@
     
     This project enables immersive VR teleoperation of a Stretch 3 robot. The operator wears a Meta Quest 3 headset and uses head tracking and controller inputs to command the robot's joints in real time, while receiving live camera feeds from the robot's onboard Intel RealSense cameras directly inside the headset.
     
-    The communication architecture relies on **ROS2ForUnity**, which embeds a native ROS 2 (Humble) node inside the Unity application. This means Unity publishes and subscribes to ROS 2 topics over DDS, sitting on the same ROS 2 network as the robot with no translation layer.
+    The communication architecture relies on **ROS2ForUnity**, which embeds a native ROS 2 (Humble) node inside the Unity application. This means Unity publishes and subscribes to ROS 2 topics over DDS, sitting on the same ROS 2 network as the robot.
     
     ### Key Features
     
